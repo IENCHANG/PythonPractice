@@ -1,11 +1,3 @@
-README.md file generated successfully.
-
-Your Markdown file is ready
-[file-tag: code-generated-file-5703ebb3-1d6c-4757-8a93-ba67f3615782]
-
-以下是為您的骰子模擬程式所編寫的 README.md 內容：
-
-Markdown
 # 🎲 Python 骰子模擬器 (Dice Roller Simulator)
 
 這是一個簡單且直觀的 Python 命令列（CLI）程式，允許使用者輸入想要擲的骰子數量，程式將隨機生成相應點數，並以精美的 **ASCII Art 圖案** 在終端機中呈現每一個骰子，最後計算並輸出點數總和。
