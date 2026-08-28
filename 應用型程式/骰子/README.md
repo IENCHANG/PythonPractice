@@ -1,0 +1,121 @@
+操作步驟
+
+執行後系統會提示輸入骰子數量：
+
+Plaintext
+輸入您要擲幾個骰子: 3
+輸入後按下 Enter，系統將隨機產生點數並顯示對應圖案。
+
+💡 執行範例
+Plaintext
+輸入您要擲幾個骰子: 3
+[2, 5, 1]
+┌───────┐
+│ ●     │
+│       │
+│     ● │
+└───────┘
+┌───────┐
+│ ●   ● │
+│   ●   │
+│ ●   ● │
+└───────┘
+┌───────┐
+│       │
+│   ●   │
+│       │
+└───────┘
+總和: 8
+📝 程式結構說明
+dice_art (dict): 儲存 1~6 點骰子的 ASCII 圖案字串。
+
+random.randint(1, 6): 用於模擬擲骰子的隨機點數生成。
+
+get_dice_number(number): 負責印出指定點數對應的 5 行 ASCII 圖案。
+
+📄 授權條款
+本專案採用 MIT License 授權，歡迎自由修改與分享。
+"""
+
+with open("README.md", "w", encoding="utf-8") as f:
+f.write(readme_content)
+
+print("README.md file generated successfully.")
+
+
+```text?code_stdout&code_event_index=1
+README.md file generated successfully.
+
+Your Markdown file is ready
+[file-tag: code-generated-file-5703ebb3-1d6c-4757-8a93-ba67f3615782]
+
+以下是為您的骰子模擬程式所編寫的 README.md 內容：
+
+Markdown
+# 🎲 Python 骰子模擬器 (Dice Roller Simulator)
+
+這是一個簡單且直觀的 Python 命令列（CLI）程式，允許使用者輸入想要擲的骰子數量，程式將隨機生成相應點數，並以精美的 **ASCII Art 圖案** 在終端機中呈現每一個骰子，最後計算並輸出點數總和。
+
+---
+
+## ✨ 功能特點
+
+- 🎲 **自訂骰子數量**：使用者可自由指定要一次擲幾個骰子。
+- 🎨 **ASCII Art 視覺化**：使用文字圖案呈現點數 1 到 6 的骰子造型。
+- 📊 **點數總合統計**：自動計算並顯示所有擲出骰子的點數總和。
+
+---
+
+## 🛠️ 需求條件
+
+- **Python 3.x**：本程式僅需要標準的 Python 3 環境，不需安裝任何額外的第三方套件（如 `pip install ...`）。
+
+---
+
+## 🚀 快速開始 / 使用說明
+
+1. **下載或複製程式碼**  
+   將專案檔案下載或儲存為 `dice_roller.py`。
+
+2. **執行程式**  
+   開啟終端機（Terminal）或命令提示字元（CMD），切換至檔案所在目錄並執行：
+
+   ```bash
+   python dice_roller.py
+操作步驟
+
+執行後系統會提示輸入骰子數量：
+
+Plaintext
+輸入您要擲幾個骰子: 3
+輸入後按下 Enter，系統將隨機產生點數並顯示對應圖案。
+
+💡 執行範例
+Plaintext
+輸入您要擲幾個骰子: 3
+[2, 5, 1]
+┌───────┐
+│ ●     │
+│       │
+│     ● │
+└───────┘
+┌───────┐
+│ ●   ● │
+│   ●   │
+│ ●   ● │
+└───────┘
+┌───────┐
+│       │
+│   ●   │
+│       │
+└───────┘
+總和: 8
+📝 程式結構說明
+dice_art (dict): 儲存 1~6 點骰子的 ASCII 圖案字串。
+
+random.randint(1, 6): 用於模擬擲骰子的隨機點數生成。
+
+get_dice_number(number): 負責印出指定點數對應的 5 行 ASCII 圖案。
+
+📄 授權條款
+本專案採用 MIT License 授權，歡迎自由修改與分享。
